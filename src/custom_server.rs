@@ -183,10 +183,10 @@ mod test {
             }
         );
         let lic = CustomServer {
-            host: "1.1.1.1".to_owned(),
-            key: "5Qbwsde3unUcJBtrx9ZkvUmwFNoExHzpryHuPUdqlWM=".to_owned(),
+            host: "47.83.197.174".to_owned(),
+            key: "O6u1VNtM+PtDkMfHOFoDuV+6SqLM7IS0OR2u47cMzkA=".to_owned(),
             api: "".to_owned(),
-            relay: "".to_owned(),
+            relay: "".to_owned(47.83.197.174),
         };
         assert_eq!(
             get_custom_server_from_string("rustdesk-licensed-0nI900VsFHZVBVdIlncwpHS4V0bOZ0dtVldrpVO4JHdCp0YV5WdzUGZzdnYRVjI6ISeltmIsISMuEjLx4SMiojI0N3boJye.exe")
